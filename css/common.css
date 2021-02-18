@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f5f7f7;
+    font-family: "Microsoft Yahei", Arial, sans-serif;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
