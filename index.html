@@ -54,16 +54,26 @@
             position: absolute;
             left: 0;
             bottom: 0;
-            height: 250px;
+            height: 336px;
             width: 100%;
             background: url(./image/bg1.png);
+            animation: gbMove 25s linear infinite;
         }
         
         .bg {
             background: url(./image/bg2.png);
-            bottom: 10px;
+            height: 569px;
             z-index: -1;
-            height: 300px;
+            opacity: .8;
+        }
+        
+        @keyframes gbMove {
+            0% {
+                background-position-x: 0;
+            }
+            100% {
+                background-position-x: -3840px;
+            }
         }
     </style>
 </head>
