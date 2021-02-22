@@ -26,11 +26,10 @@ h1 {
     transform: translateY(-50%);
 }
 
-.links a {
-    display: block;
-    margin: 20px;
-    text-decoration: none;
-    color: white;
+.links a span {
     font-family: 'icomoon';
     font-size: 40px;
+    display: block;
+    margin: 20px;
+    color: white;
 }
