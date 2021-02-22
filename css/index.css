@@ -19,17 +19,18 @@ h1 {
     font-size: 30px;
 }
 
-.mes {
+.links {
     position: absolute;
-    top: 10px;
+    top: 50%;
     left: 10px;
+    transform: translateY(-50%);
 }
 
-.mes a {
+.links a {
     display: block;
     margin: 20px;
-}
-
-.mes img {
-    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'icomoon';
+    font-size: 40px;
 }

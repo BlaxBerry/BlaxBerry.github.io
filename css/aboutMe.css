@@ -1,0 +1,40 @@
+body {
+    background-color: #333333;
+}
+
+
+/* mian container */
+
+.content {
+    position: absolute;
+    z-index: 222;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 700px;
+    padding: 50px;
+    height: 700px;
+}
+
+.title {
+    text-align: center;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: black;
+    font-family: 'icomoon';
+    font-size: 20px;
+}
+
+.iconfont {
+    font-family: 'icomoon';
+    font-size: 30px;
+    margin: 0 10px;
+}
